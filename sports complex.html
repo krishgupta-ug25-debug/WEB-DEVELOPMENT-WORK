@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORTS COMPLEX</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        inline-size: 100vw;
+        block-size: 15vh;
+        background-color: beige;
+        padding: 10px;
+    }
+
+    .ab {
+        place-content: center;
+        text-align: center;
+        font-family: cursive;
+        font-size: 70px;
+        color: rgb(108, 230, 230);
+    }
+
+    h1 {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        color: rgb(34, 43, 43);
+    }
+
+    .para {
+        font-size: 25px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .i1
+    {
+        margin-inline-start: 150px;
+    }
+
+    @media screen and (orientation: portrait) {
+
+        .container {
+            grid-template-columns: 1fr;
+        }
+
+        .i1,
+        .i2 {
+            margin-inline-start: 2px;
+        }
+
+        nav {
+            inline-size: 95vw;
+            block-size: 25vh;
+        }
+    }
+
+    ul {
+        padding: 20px;
+        list-style-position: inside;
+        list-style-type: square;
+        font-size: 30px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <nav class="ab">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.nM189J1rZ4oaNYtuGuE2bwHaC4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+            height="75"></img>
+
+        NSUT
+    </nav>
+    <h1>SPORTS COMPLEX</h1>
+    <div class="container">
+        <div>
+            <img class="i1" src="https://www.nsut.ac.in/sites/default/files/2022-01/3%20%281%29.jpg" height="280"
+                width="380">
+        </div>
+
+        <div>
+            <img class="i2" src="https://www.nsut.ac.in/sites/default/files/2022-01/2%20%281%29_1.jpg" height="280"
+                width="380">
+        </div>
+    </div>
+    <p class="para">NSUT has a well-equipped sports complex that caters to the diverse interests of its students.
+        The complex includes facilities for various sports such as basketball and volleyball. There are also outdoor fields for cricket, football, and athletics. The sports complex is designed
+        to promote physical fitness and encourage students to participate in extracurricular activities. Regular
+        sports events and tournaments are organized to foster a spirit of competition and camaraderie among
+        students.
+    </p>
+    <h2>VARIETY OF SPORTS</h2>
+    <ul>
+        <li>Basketball</li>
+        <li>Volleyball</li>
+        <li>Cricket</li>
+        <li>Football</li>
+        <li>Athletics</li>
+    </ul>
+</body>
+
+</html>
