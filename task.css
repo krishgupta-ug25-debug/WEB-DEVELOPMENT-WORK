@@ -35,8 +35,12 @@ nav {
     color: rgb(108, 230, 230);
     position: fixed;
 }
-
-div {
+.filter{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    inset-block-start: 38vh;
+}
+.main {
     box-sizing: border-box;
     padding-block-start: 39vh;
     display: grid;
