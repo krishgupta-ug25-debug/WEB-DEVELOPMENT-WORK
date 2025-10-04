@@ -14,7 +14,7 @@
 
     nav {
         inline-size: 100vw;
-        block-size: 15vh;
+        block-size: 20vh;
         background-color: beige;
         padding: 10px;
     }
@@ -44,14 +44,9 @@
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+        }
 
-    .i1
-    {
-        margin-inline-start: 150px;
-    }
-
-    @media screen and (orientation: portrait) {
+    @media screen and (max-width:600px) {
 
         .container {
             grid-template-columns: 1fr;
